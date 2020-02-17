@@ -1,13 +1,16 @@
 body {
   margin: 0;
-  text-align: center;
+  text-align: left;
   font-family: 'Merriweather', serif;
+  font-size: 120%;
 }
 
 h1 {
-  margin: 0;
+  margin-top: 0px;
   font-family: 'Lacquer', sans-serif;
-  font-size: 85px;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 0px;
 }
 
 h2 {
@@ -20,8 +23,8 @@ h3 {
 
 .lampa-1 {
   position: absolute;
-  right: 600px;
-  top: 80px;
+  right: 0px;
+  top: 0px;
   width: 120px;
   height: 120px;
   transform: rotate(20deg);
@@ -30,10 +33,13 @@ h3 {
 .Idea {
   width: 620px;
   height: 420px
+
 }
 
 #Ypotitlos {
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
 
 }
 
@@ -45,24 +51,38 @@ hr {
 }
 
 #profile-pic {
-  border-radius: 50%;
+  border-radius: 0%;
 }
+
 .top {
-  background-color: #f9f7f7;
-  position: relative;
-  padding-top: 100px;
-}
-
-
-.middle-container{
-  background-color: #dbe2ef;;
-}
-
-.contact-me{
   background-color: #dbe2ef;
-
+  position: relative;
+  padding-top: 300px;
 }
-.bottom-container{
-  background-color: #3f72af;
 
+.middle-container {
+  background-color: #e1f4f3;
+}
+
+.contact-me {
+  background-color: #e1f4f3;
+}
+
+.bottom-container {
+  background-color: #3f72af;
+}
+
+.classroom {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 500px;
+  top: 1300px;
+}
+
+.screen {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 700px;
 }
