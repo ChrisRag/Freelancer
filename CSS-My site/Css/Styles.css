@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 85px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lampa-1 {
+  position: absolute;
+  right: 600px;
+  top: 80px;
+  width: 120px;
+  height: 120px;
+  transform: rotate(20deg);
+}
+
+.Idea {
+  width: 620px;
+  height: 420px
+}
+
+#Ypotitlos {
+  font-size: 20px;
+
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 10%;
+  color: #521262;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+.top {
+  background-color: #f9f7f7;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.middle-container{
+  background-color: #dbe2ef;;
+}
+
+.contact-me{
+  background-color: #dbe2ef;
+
+}
+.bottom-container{
+  background-color: #3f72af;
+
+}
